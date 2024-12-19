@@ -3,7 +3,7 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 18px;
     font-family:'Roboto', sans-serif;
     max-width: 100%;
 }
@@ -16,17 +16,34 @@ html {
 
 h1 {
     font-size: 2.5rem;
-    margin: 2rem 1rem;
+    margin: 32px 24px 24px;
 }
 
 h2 {
     font-size: 2rem;
-    margin: 1rem;
 }
 
 h3 {
     font-size: 1.5rem;
     margin: 1rem;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: blue;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 1rem;
 }
 
 /* NAV STYLING */
@@ -65,6 +82,79 @@ h3 {
     font-size: 1.5rem;
     display: inline-block;
 }
+
+/* MAIN STYLING START */
+
+/* BANNER */
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.banner img {
+    width: 60%;
+    height: auto;
+    margin: 32px 24px;
+}
+.banner div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 28%;
+}
+
+.banner div button {
+    width: 95%;
+    margin-left: 16px;
+    margin-top: 24px;
+    padding: 16px 0;
+}
+
+/* SECTION 2 */
+
+.sec-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: none;
+}
+.big-box {
+    padding: 24px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.big-box h2 {
+    margin: 32px 0px 24px;
+}
+.big-box span {
+    font-size: 14px;
+    margin: 32px 0 32px;
+}
+
+.three-box img {
+    width: 35%;
+}
+
+.small-box {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border: thin solid lightgray;
+}
+.old-man {
+    background-color: lightgray;
+}
+.box-txt p, .box-txt a {
+    margin: 8px 20px;
+}
+
+
+/* LEARNING STYLING START */
+
 
 
 
