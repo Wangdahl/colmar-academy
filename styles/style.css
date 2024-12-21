@@ -7,6 +7,9 @@ html {
     font-family:'Roboto', sans-serif;
     max-width: 100%;
 }
+body {
+    max-width: 100%;
+}
 
 * {
     margin: 0;
@@ -154,11 +157,85 @@ button {
 
 
 /* LEARNING STYLING START */
+.learning {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    padding: 32px 72px 32px 72px;
+    overflow-x: hidden;
+    max-width: 100%;
+    background-color: lightgray;
+    text-align: center;
+}
 
+.learning h2 {
+    grid-column: 1 / span 3;
+    padding-top: 32px;
+    margin-bottom: 16px;
+}
 
+.learning-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    background-color: white;
+    text-align: left;
+}
+
+.learning-box img {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+.learning-box span {
+    padding: 8px 20px 16px;
+}
+.learning-box p {
+    margin: 0 20px 24px;
+}
 
 
 /* THESIS STYLING */
-video {
+.thesis-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px;
+}
+.thesis-section h2 {
+    width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.thesis-big {
     max-width: 60%;
+}
+video {
+    max-width: 100%;
+}
+.the-small-two {
+    max-width: 40%;
+}
+
+.thesis-small {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    margin-left: 24px;
+    align-items: center;
+}
+.thesis-small img {
+    max-width: 35%;
+    margin: 0;
+    padding: 0;
+
+}
+.thesis-small p {
+    margin-left: 20px;
+}
+
+.gray {
+    background-color: lightgray;
 }
