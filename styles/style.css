@@ -207,6 +207,7 @@ button {
     width: 100%;
     flex-basis: 100%;
     text-align: center;
+    margin: 32px 0 48px;
 }
 
 .thesis-big {
@@ -238,4 +239,22 @@ video {
 
 .gray {
     background-color: lightgray;
+}
+
+/* FOOTER STYLING */
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 16px 48px;
+    border-top: thin solid lightgray;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
 }
